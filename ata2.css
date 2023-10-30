@@ -1,0 +1,44 @@
+.mother-div{
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+.t-div{
+  font-family: arial;
+  font-size: 16px;
+}
+.div2-css{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.div3-css{
+  background-color: yellow;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  cursor: pointer;
+}
+.div4-css{
+  background-color: orange;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.div5-css{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  height: 300px;
+  column-gap: 30px;
+}
+.div6-css{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+
+}
