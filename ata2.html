@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="ata2.css">
+</head>
+<body>
+<div class="mother-div">
+  <div>
+    <p class="t-div">Adult Plain cutton T-shirt</p>
+  </div>
+  <div>
+    <p class="t-div">
+      price: $7.99
+  </p>
+</div>
+  <div class="div2-css">
+    <div><button class="div3-css" onclick="alert('Added');">Add to cart</button></div>
+    <div><button class="div4-css" onclick="alert('Loading');
+    alert('Purchased');">Buy now</button></div>
+  </div>
+</div>
+<div class="div5-css">
+  <div style="background-color: blue;">1</div>
+  <div style="background-color: green;">2</div>
+  <div style="background-color: red;">3</div>
+  <div style="background-color: blueviolet;">4</div>
+</div>
+<div class="div6-css">
+  <div style="background-color: black;width: 100px; ">5</div>
+  <div style="background-color: fuchsia; flex: 1; ">6</div>
+  <div style="background-color: darkorange; flex: 4; ">7</div>
+  <div style="background-color: gray; width: 100px; ">8</div>
+</div>
+<button onclick="console.log(`Cartquantity: ${cartQuantity}`)";>show quantity</button>
+<button onclick="cartQuantity=cartQuantity+1; console.log(`Cartquantity: ${cartQuantity}`)">Add to Cart</button>
+<button onclick="cartQuantity=cartQuantity+2; console.log(`cart Quantity:${cartQuantity}`);">+2</button>
+<button onclick="cartQuantity=cartQuantity+3; console.log(`cart Quantity:${cartQuantity}`); ">+3</button>
+<button onclick="cartQuantity=cartQuantity+4; console.log(`cart Quantity: ${cartQuantity}`)">+4</button>
+<button onclick="cartQuantity=cartQuantity+5; console.log(`cart Quantity:${cartQuantity}`);">+5</button>
+<button onclick="cartQuantity=cartQuantity+10; console.log(`cart Quantity:${cartQuantity}`);">+10</button>
+<button onclick="cartQuantity=cartQuantity-2; console.log(`cart Quantity: ${cartQuantity}`)">-2</button>
+<button onclick="cartQuantity=cartQuantity-3; console.log(`cart Quantity: ${cartQuantity}`);">-3</button>
+<button onclick="cartQuantity=cartQuantity-1; console.log(`cart Quantity:${cartQuantity}`);">Remove from cart</button>
+<button onclick="cartQuantity= 0; console.log('Cart was reset'); console.log(`cartQuantity:${cartQuantity}`);">reset cart</button>
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
